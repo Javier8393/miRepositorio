@@ -1,0 +1,103 @@
+.header{
+    text-align: center;
+}
+
+.header__img {
+    float: left;
+}
+
+.header__enlace {
+    float: right;
+}
+
+.menu{
+    text-align: center;
+}
+
+.nav li{
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: medium;
+    font-weight: 600;
+
+    a{
+       color: black;
+       text-decoration: none;
+
+    }
+    a:hover{
+        color: white;
+        background-color: black;
+    }
+
+}
+.main{
+    text-align: center;
+    margin: 30px;
+    padding: 15px;
+
+    hr {
+        border: 2px solid red;
+    }
+
+    .main__texto {
+        text-align: left;
+    }
+    
+    .main__img {
+        
+        max-width: 100%;
+        height: auto;
+    }
+    .main__alumno {
+        background-color: salmon;
+    }
+    
+    .main__alumno-foto {
+        vertical-align: middle;
+        border-radius: 100%;
+        
+    }
+    
+}
+
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+
+    .footer__contacto{
+        list-style-type: none;
+    }
+
+    .footer__redes{
+        li{
+            display: inline;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .footer__redes-img {
+            height: 32px;
+            width: 32px;
+        }
+        
+    }
+
+    .nav{
+        a{
+            color: white;
+            text-decoration: none;
+     
+         }
+         a:hover{
+             color: red;
+             background-color: white;
+         }
+    }
+    
+}
+
+
